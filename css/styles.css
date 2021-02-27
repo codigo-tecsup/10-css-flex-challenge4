@@ -1,0 +1,27 @@
+/*
+****************** NO BORRAR LOS ESTILOS INICIALES
+*/
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	padding: 20px;
+	min-height: 100vh;
+	background-color: #f4f4f4;
+}
+body > h2:nth-child(1) {
+	color: #222;
+}
+
+body > h2:nth-child(1) span {
+	color: #a70000;
+}
+body > h2 + hr {
+	margin-bottom: 20px;
+}
+/*
+****************** NO BORRAR LOS ESTILOS INICIALES
+*/
