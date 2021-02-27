@@ -25,3 +25,43 @@ body > h2 + hr {
 /*
 ****************** NO BORRAR LOS ESTILOS INICIALES
 */
+
+.container {
+	max-width: 900px;
+	background-color: #47b04b;
+	display: flex;
+	padding: 40px 20px;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.child {
+	display: flex;
+	color: white;
+}
+.child:nth-child(2) {
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.child__left > figure {
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.child__left {
+	padding: 0px 10px;
+}
+.child__title {
+	margin-bottom: 15px;
+}
+.child__text {
+	line-height: 24px;
+}
+
+.child__right {
+	padding: 0 12px;
+}
